@@ -18,6 +18,8 @@ public class SandboxController : MonoBehaviour
     private Button _submitButton;
     [SerializeField]
     private TMP_Text _outputText;
+    [SerializeField]
+    private Animator _characterAnimator;
 
     private OpenAIChatCompletionService _service;
     
@@ -49,6 +51,9 @@ public class SandboxController : MonoBehaviour
         var outputMessage = messages[2].content;
         Debug.Log(outputMessage);
         _outputText.text = outputMessage;
+        
+        // キャラクターのアニメーションを変更
+        _characterAnimator.SetTrigger("Joy");
         
         // 再び待機状態に戻る
         await CreateConversationAsync();
