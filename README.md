@@ -1,6 +1,8 @@
 # DailyYell
 daily yell is your personal cheerleader in a diary, offering uplifting AI-generated praises as you jot down your daily experiences.
 
+YouTube
+
 [![daily yell](http://img.youtube.com/vi/qx4XPRsF3rQ/0.jpg)](https://www.youtube.com/watch?v=qx4XPRsF3rQ)
 
 
