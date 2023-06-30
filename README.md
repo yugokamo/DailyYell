@@ -10,3 +10,6 @@ daily yell is your personal cheerleader in a diary, offering uplifting AI-genera
 3. Open Assets > Scenes > Sandbox
 4. Select SandboxController in scene and put OpenAI API key into inspector field
 
+![setup01](Docs/Setup01.png)
+
+
